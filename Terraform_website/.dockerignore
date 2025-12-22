@@ -1,0 +1,20 @@
+# Git files
+.git
+.gitignore
+
+# Terraform folders & state
+.terraform
+.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.backup
+
+# Logs & temp files
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / misc (safe even if not used)
+node_modules
